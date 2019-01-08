@@ -59,7 +59,7 @@ class Game:
             self.paused = not self.paused # Ставим игру на паузу
 
   def update(self):
-    pass
+    self.level.update()
 
   def draw(self):
     self.level.draw()
